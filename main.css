@@ -1,0 +1,305 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+body {
+    line-height: 1
+}
+blockquote,
+q {
+    quotes: none
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+html,
+body {
+    padding: 0;
+    margin: 0
+}
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    color: #484848;
+    line-height: 1.4;
+    font-weight: 200
+}
+#wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 24px
+}
+#wrapper header {
+    padding: 24px 0 48px 0
+}
+#wrapper header h1 {
+    margin: 0 0 .2em 0
+}
+h1,
+h2 {
+    letter-spacing: -0.02em;
+    margin: 0 0 .5em;
+    line-height: 1;
+    color: #222
+}
+p {
+    margin: 0 0 1.5em 0
+}
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: -0.02em
+}
+h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 48px
+}
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 48px 0 .1em;
+    color: #222
+}
+strong {
+    font-weight: bold
+}
+a {
+    text-decoration: none;
+    color: #0069ff;
+    font-weight: normal;
+    padding-bottom: .01em;
+    border-bottom: 1px solid #0069ff;
+    transition: .2s ease all
+}
+a:hover,
+a:focus {
+    outline: 0;
+    color: #005fe6;
+    border-color: #005fe6;
+    transition: .2s ease all
+}
+section {
+    border-top: 1px solid #ebebea;
+    padding: 64px 0
+}
+img {
+    max-width: 100%
+}
+.logo {
+    padding: 30px 30px 0
+}
+.logo a {
+    border: 0
+}
+.center {
+    text-align: center
+}
+.center p,
+.center h2 {
+    max-width: 30em;
+    margin-left: auto;
+    margin-right: auto
+}
+.center .col {
+    margin: 0 5%
+}
+.shadow {
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
+    margin: 0 16px
+}
+a.btn {
+    border-radius: 4px;
+    background: #0069ff;
+    color: #fff;
+    padding: 16px 24px;
+    display: inline-block;
+    margin: 8px 0;
+    font-weight: bold
+}
+a.btn:hover {
+    color: #fff;
+    background-color: #005fe6
+}
+.list a {
+    display: inline-block;
+    margin: 0 16px 0 0
+}
+footer {
+    border-top: 1px solid #ebebea;
+    margin: 48px 0 0;
+    padding: 48px 0;
+    color: #9ca299;
+    font-size: 15px
+}
+footer a {
+    color: #9ca299;
+    border: 0;
+    margin: 16px 16px 0 0
+}
+footer a:last-child {
+    margin-right: 0
+}
+#clinicalText {
+    margin-left: 0;
+    width: 100%
+}
+img {
+  border-radius: 5px;
+}
+@media(min-width:960px) {
+    #clinicalText {
+        float: right;
+        max-width: 680px;
+        margin-top: -70px
+    }
+    footer nav {
+        float: right
+    }
+    footer nav a {
+        margin: 0 8px 0 8px
+    }
+    #wrapper header {
+        padding: 180px 0 64px 0;
+        clear: both;
+        overflow: hidden
+    }
+    #wrapper header p,
+    #wrapper header h1,
+    #wrapper header h3 {
+        max-width: 20em
+    }
+    section {
+        border-top: 1px solid #ebebea;
+        padding: 96px 0;
+        clear: both;
+        overflow: hidden
+    }
+    .col.one {
+        width: 30%;
+        margin: 0 5% 0 0
+    }
+    .col.one:last-child {
+        margin-right: 0
+    }
+    .col.two {
+        width: 60%;
+        margin: 0
+    }
+    .col:first-child {
+        margin-left: 0
+    }
+    .col {
+        width: 46%;
+        margin: 0 2% 0 2%;
+        float: left;
+        content: " "
+    }
+}
