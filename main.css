@@ -149,7 +149,7 @@ h2 {
     line-height: 1;
     color: #222
 }
-p {
+#content > p {
     margin: 0 0 1.5em 0
 }
 h1 {
@@ -249,7 +249,9 @@ footer a:last-child {
 }
 #clinicalText {
     margin-left: 0;
-    width: 100%
+    width: 100%;
+    background: whitesmoke;
+    border-radius: 5px;
 }
 img {
   border-radius: 5px;
@@ -271,7 +273,6 @@ img {
         clear: both;
         overflow: hidden
     }
-    #wrapper header p,
     #wrapper header h1,
     #wrapper header h3 {
         max-width: 20em
@@ -303,3 +304,92 @@ img {
         content: " "
     }
 }
+
+.entities-3 [data-entity] {
+  padding: 0 0.15em 0.15em 0.15em;
+  position: relative;
+  cursor: help;
+  border-bottom: 3px solid;
+}
+
+.entities-3 [data-entity]:hover:after {
+  opacity: 1;
+}
+
+.entities-3 [data-entity]:after {
+  opacity: 0;
+  font-size: 0.65em;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -1.5em;
+  left: 0;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+.entities-3 [data-entity][data-entity="symptom"] {
+  border-bottom-color: #f44d61;
+}
+
+.entities-3 [data-entity][data-entity="symptom"]:after {
+  color: #f44d61;
+}
+
+.entities-3 [data-entity][data-entity="diagnose"] {
+  border-bottom-color: #8e7dff;
+}
+
+.entities-3 [data-entity][data-entity="diagnose"]:after {
+  color: #8e7dff;
+}
+
+.entities-3 [data-entity][data-entity="medikament"] {
+  border-bottom-color: #2fbbab;
+}
+
+.entities-3 [data-entity][data-entity="medikament"]:after {
+  color: #2fbbab;
+}
+
+.entities-3 [data-entity][data-entity="dosis"] {
+  border-bottom-color: #4CAF50;
+}
+
+.entities-3 [data-entity][data-entity="dosis"]:after {
+  color: #4CAF50;
+}
+
+.entities-3 [data-entity][data-entity="frequenz"] {
+  border-bottom-color: #8bc34a;
+}
+
+.entities-3 [data-entity][data-entity="frequenz"]:after {
+  color: #8bc34a;
+}
+
+[data-entity] {
+  line-height: 1;
+  display: inline-block;
+  background: transparent;
+}
+
+[data-entity]:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  content: attr(data-entity);
+  line-height: 1;
+  display: inline-block;
+}
+
+.entities {
+  font: 18px/2.5 Arial, sans-serif;
+  padding: 25px 50px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+

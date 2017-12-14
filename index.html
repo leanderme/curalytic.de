@@ -30,28 +30,33 @@
 <article id="wrapper">
   <header>
       <figure id="clinicalText">
-        <img src="./assets/img/clinical-text-extraction.png" />
+        <div class="entities entities-3">
+          <strong>DIAGNOSEN</strong>
+          <p><mark data-entity="diagnose">Hochgradige Herzinsuffizienz</mark> (EF ca 20 - 30%)</p>
+          <p><mark data-entity="diagnose">Persistierende unklare Unterbauchschmerzen</mark></p>
+          <p><mark data-entity="diagnose">Arterielle Hypertonie</mark></p>
+        </div>
+        <div class="entities entities-3">
+         <strong>ANAMNESE</strong>
+         <p>Vorbekannt war ein Sturzereignis aufgrund einer <mark data-entity="symptom">Synkope</mark> mit kurzfristiger <mark data-entity="symptom">Bewußtlosigkeit</mark>. Ein <mark data-entity="symptom">trockener Husten</mark> ist seit längerem vorbekannt. Akutelle Medikation: <mark data-entity="medikament">L-Throxin</mark> <mark data-entity="dosis">100</mark> <mark data-entity="frequenz">1-0-0-0</mark>, <mark data-entity="medikament">Spironolacton</mark> <mark data-entity="dosis">25</mark> <mark data-entity="frequenz">1-0-0-0</mark>.
+        </p>
+       </div>
       </figure>
-      <h1>Curelitic</h1>
-      <p>Hochskalierbare KI-Lösungen zur Diagnosesfindung und Unterstützung im klinischen Kontext, entwickelt von Medizinern.
-      <br><br>
-      Erfahren Sie mehr über automatisierte lernfähige Textextraktion von medizinischen Dokumenten, eine intelligente Diagnoseunterstützung und über Digitale Anamnese.</p>
-      <p>
-        <a href="#get-started" class="btn" style="margin-right:24px;">Mehr erfahren</a>
-      </p>
+      <div id="content">
+        <h1>Curelitic</h1>
+        <p>Hochskalierbare KI-Lösungen zur Diagnosesfindung und Unterstützung im klinischen Kontext, entwickelt von Medizinern.
+        <br><br>
+        Erfahren Sie mehr über automatisierte lernfähige Textextraktion von medizinischen Dokumenten, eine intelligente Diagnoseunterstützung und über Digitale Anamnese.</p>
+        <p>
+          <a href="#get-started" class="btn" style="margin-right:24px;">Mehr erfahren</a>
+        </p>
+      </div>
   </header>
   <section>
     <div class="col">
-     <figure>
-      <img src="./assets/img/sytora.png" />
-     </figure>
-     <br />
-     <br />
-     <figure>
-      <img src="./assets/img/peachsurvey.png" />
-     </figure>
+
     </div>
-    <div class="col">
+    <div class="col" id="content">
       <h2>Warum Curelitic?</h2>
       <h3>Entwickelt von Medizinern</h3>
       <p>Unsere Lösungen stammen direkt aus dem klinischen Alltag - wir wissen worauf es ankommt.</p>
@@ -67,14 +72,14 @@
 </section>
   <section id="get-started">
     <h2>Unsere Lösungen</h2>
-    <div class="col one">
+    <div class="col one" id="content">
 
       <h3>Clinical Text Analysis</h3>
       <p>Automatisierte Texterkennung von Symptomen, Medikamenten, Proceduren und Diagnosen. Massive Datenverarbeitung möglich.</p>
       <p><a href="http://curelitic.com/clinical-text-analysis">Mehr erfahren</a></p>
   </div>
 
-    <div class="col one">
+    <div class="col one" id="content">
       <h3>Sytora</h3>
       <p>Intelligente Diagnoseunterstützung - automatisierter Symptomabgleich in Echtzeit.</p>
         <p class="list">
@@ -82,7 +87,7 @@
         <a href="https://curelitic.com/introducing-sytora">Mehr erfahren</a>
       </p>
     </div>
-    <div class="col one">
+    <div class="col one" id="content">
       <h3>PeachSurvey</h3>
       <p>Sichere, digitale Anamneseerhebung für Ihre Klinik - FHIR kompatibel<p>
         <a href="https://curelitic.com/introducing-peachsurvey">Mehr erfahren</a></p>
