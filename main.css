@@ -173,10 +173,10 @@ strong {
 }
 a {
     text-decoration: none;
-    color: #0069ff;
+    color: #2251FF;
     font-weight: normal;
     padding-bottom: .01em;
-    border-bottom: 1px solid #0069ff;
+    border-bottom: 1px solid #2251FF;
     transition: .2s ease all
 }
 a:hover,
@@ -217,7 +217,7 @@ img {
 }
 a.btn {
     border-radius: 4px;
-    background: #0069ff;
+    background: #2251FF;
     color: #fff;
     padding: 16px 24px;
     display: inline-block;
@@ -250,7 +250,7 @@ footer a:last-child {
 #clinicalText {
     margin-left: 0;
     width: 100%;
-    background: whitesmoke;
+    background: #F2F7FB;
     border-radius: 5px;
 }
 img {
