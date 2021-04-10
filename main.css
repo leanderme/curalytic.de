@@ -132,7 +132,7 @@ body {
     font-weight: 200
 }
 #wrapper {
-    max-width: 1120px;
+    max-width: 1220px;
     margin: 0 auto;
     padding: 0 24px
 }
@@ -299,6 +299,24 @@ img {
     }
     .col {
         width: 46%;
+        margin: 0 2% 0 2%;
+        float: left;
+        content: " "
+    }
+
+    .col_1_3 {
+        width: 36%;
+        margin: 0 2% 0 2%;
+        float: left;
+        content: " "
+    }
+
+    .col_1_3:first-child {
+        margin-left: 0
+    }
+
+    .col_2_3 {
+        width: 56%;
         margin: 0 2% 0 2%;
         float: left;
         content: " "
