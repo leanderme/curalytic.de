@@ -259,7 +259,7 @@ img {
 @media(min-width:960px) {
     #clinicalText {
         float: right;
-        max-width: 680px;
+        max-width: 580px;
         margin-top: -70px
     }
     footer nav {
